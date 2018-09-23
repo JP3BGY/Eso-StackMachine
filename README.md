@@ -58,7 +58,7 @@ Delete top of stack value.
 
 0b000000 XX NN 000000
 
-XX is a stac specifer and NN is a bytes specifer.
+XX is a stack specifer and NN is a bytes specifer.
 
 ## Jmp instruction
 Change ip to the offset. Current ip points next instruction.
