@@ -65,7 +65,7 @@ Change ip to the offset. Current ip points next instruction.
 
 0b1 S VVVVVVVVVVVVVV
 
-S is a sign flag. if S is 1, then next offset is treated as minus value.
+S is a sign flag. if S is 0, then next offset is treated as minus value.
 
 VVVVVVVVVVVVVV is an offset. ip changes to ip+VVVVVVVVVVVVVV(or ip-VVVVVVVVVVVVVV if S is 1).
 
