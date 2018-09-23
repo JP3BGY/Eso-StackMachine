@@ -8,7 +8,7 @@ Input string is contained in 00-stack,top of whitch is 4-bytes value of string l
 
 ## Operator instruction
 
-Calculate top of two stacks.
+Calculate top of two stacks. The result is pushed to rest of stack.
 
 0b001 XXX YY Z NN 00000
 
