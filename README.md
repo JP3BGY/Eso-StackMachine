@@ -3,6 +3,9 @@
 Hanoi_Stack is an three-stacks-machine language written in 2-bytes binary representation.
 Here is the details of it.
 
+## Input
+Input string is contained in 00-stack,top of whitch is 4-bytes value of string length.
+
 ## Operator instruction
 
 Calculate top of two stacks.
