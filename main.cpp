@@ -28,7 +28,7 @@ int main(int argc, char const* argv[])
     if((opcd&(0b1<<15))!=0){
       int offset=opcd&0b11111111111111;
       offset*=2;
-      if((opcd&(0b1<<14))!=1)offset=-offset;
+      if((opcd&(0b1<<14))!=0)offset=-offset;
       fseek(program,offset,SEEK_CUR);
     }else if((opcd&(0b01<<14))!=0){
       sm.push((opcd&(0b11<<12))>>12,(opcd&(0b11111111<<4))>>4,0);
